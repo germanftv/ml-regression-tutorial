@@ -1,0 +1,15 @@
+# About the data
+
+| File | Description | Source |
+| --- | --- | --- |
+| `2017_flights.csv` | Random sample from the 2007 airline dataset prepared by [Elena Ikonomovska](http://kt.ijs.si/elena_ikonomovska/data.html) for the [Data Expo 2009](https://community.amstat.org/jointscsg-section/dataexpo/dataexpo2009) competition | Elena Ikonomovska's [website](http://kt.ijs.si/elena_ikonomovska/data.html) |
+| `2019_Yellow_Taxi_Trip_Data.csv` | 10,000 row subset of the [2019 Yellow Taxi Trip Dataset](https://data.cityofnewyork.us/Transportation/2019-Yellow-Taxi-Trip-Data/2upf-qytp) &ndash; data dictionary [here](https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) | NYC Open Data |
+| `holidays.csv` | Subset of United States holidays in 2019-2021 | N/A |
+| `Meteorite_Landings.csv` | [Meteorites Landing dataset](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh) | NASA's Open Data Portal |
+| `T100_MARKET_ALL_CARRIER.zip` | 2019 flight statistics for flights to/from the United States | United States Department of Transportation’s [Bureau of Transportation Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FMF&QO_fu146_anzr=Nv4%20Pn44vr45) |
+| `tsa_melted_holiday_travel.csv` | Contents of the `tsa_passenger_throughput.csv` file after data wrangling in section 2. | Original data source: [TSA.gov](https://www.tsa.gov/coronavirus/passenger-throughput) |
+| `tsa_passenger_throughput.csv` | Comparison of the number of passengers passing through TSA screening daily over 2019-2021. This snapshot was collected on May 15, 2021. | [TSA.gov](https://www.tsa.gov/coronavirus/passenger-throughput) |
+| `Ecommerce Customers.csv`| This dataset contains data of customer from a ecommerce platform. (2022-01-19) This data can be used to predict the Yearly Amount Spent based on customer features | [kaggle.com](https://www.kaggle.com/datasets/srolka/ecommerce-customers) |
+| `Position_Salaries.csv` | The Position_Salaries.csv dataset contains information about employee positions, their corresponding levels, and their salaries within a company | [kaggle.com](https://www.kaggle.com/datasets/mariospirito/position-salariescsv)
+| `mushrooms.csv` | This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy. | [kaggle.com](https://www.kaggle.com/datasets/uciml/mushroom-classification)
+| `predict_home_value.csv` | This dataset contains comprehensive information about 1,460 residential properties, primarily single-family homes, with their corresponding sale prices. | [This website](https://raw.githubusercontent.com/IBM/ml-learning-path-assets/master/data/predict_home_value.csv)

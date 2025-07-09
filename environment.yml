@@ -1,0 +1,16 @@
+name: ml-regression-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10.0,<=3.13.100
+  - requests>=2.32.3
+  - graphviz
+  - pip:
+    - scikit-learn==1.7.0
+    - jupyterlab>=4.2.3   
+    - matplotlib==3.10.3
+    - numpy==2.2.6
+    - pandas==2.3.0
+    - scipy>=1.15.3
+    - seaborn==0.13.2
+    - pydot==4.0.1
