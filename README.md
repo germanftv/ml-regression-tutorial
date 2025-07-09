@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). In simple terms the regression can be defined as, “Using the relationship between variables to find the best fit line or the regression equation that can be used to make predictions”.
+Regression analysis is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). In simple terms the regression can be defined as, “Using the relationship between variables to find the best fit or the regression equation that can be used to make predictions”.
 
 ![Regression](./media/Regression.png)
 
@@ -82,26 +82,30 @@ Pick the installation option that makes sense for you:
     (ml-regression-tutorial) ~/ml-regression-tutorial$ jupyter lab
     ```
 
-    >Note:
-    >Here’s how you can start **Anaconda Prompt** on Windows:
+    >Notes:
+    >- Here’s how you can start **Anaconda Prompt** on Windows:
     >
-    >✅ **Method 1: From Start Menu**
-    >1. Press the **Windows key** (or click the Start menu).
-    >2. Type:  
-    >   ```anaconda prompt```
-    >3. Click on **Anaconda Prompt** from the search results.
-    >
-    >✅ **Method 2: From Anaconda Navigator**
-    >If you already have Anaconda Navigator open:
-    >1. Open **Anaconda Navigator** (find it in the Start menu).
-    >2. On the Navigator home screen, you’ll see an option to launch **Anaconda Prompt**.
+    >   ✅ **Method 1: From Start Menu**
+    >   1. Press the **Windows key** (or click the Start menu).
+    >   2. Type:  
+    >      ```anaconda prompt```
+    >   3. Click on **Anaconda Prompt** from the search results.
+    >   
+    >   ✅ **Method 2: From Anaconda Navigator**
+    >   If you already have Anaconda Navigator open:
+    >   1. Open **Anaconda Navigator** (find it in the Start menu).
+    >   2. On the Navigator home screen, you’ll see an option to launch **Anaconda Prompt**.
+    >- If you have not set up Jupyter server, please follow these instructions:
+    >   ```shell
+    >      $ jupyter server --generate-config
+    >      $ jupyter server password
+    >      Enter password:  ****
+    >      Verify password: ****
+    >      [JupyterPasswordApp] Wrote hashed password to /Users/you/.jupyter/jupyter_server_config.json
+    >   ```
 
 
-5. Navigate to the `0-check_your_env.ipynb` notebook in the `notebooks/` folder:
-
-    ![open 0-check_your_env.ipynb](./media/open_env_check_notebook.png)
-
-6. Run the notebook to confirm everything is set up properly:
+5. Navigate to the `0-check_your_env.ipynb` notebook in the `notebooks/` and run the notebook to confirm everything is set up properly:
 
     ![check env](./media/env_check.png)
 
@@ -110,34 +114,26 @@ Pick the installation option that makes sense for you:
 
 #### GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/germanftv/ml-regression-tutorial)
-
-The [GitHub Codespaces](https://github.com/features/codespaces) setup provides a pre-configured machine accessible via your browser. You will need a GitHub account and available quota (all users get more than enough free monthly quota to be able to run this workshop). Note that this will take a while to build. It's recommended that you click the badge above to build the codespace in advance of the workshop and then [stop the codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/stopping-and-starting-a-codespace) until the workshop, at which point you can simply resume and pick up where you left off.
-
-Note that if you want to save your changes, you will need to fork the repository before creating the codespace. You will then be able to commit your changes directly from the codespace. Be sure to create your codespace in advance of the session and resume when we start.
+The [GitHub Codespaces](https://github.com/features/codespaces) setup provides a pre-configured machine accessible via your browser. You will need a GitHub account and available quota (all users get more than enough free monthly quota to be able to run this tutorial). To set up a GitHub Codespace from this repository follow the next steps:
 
 1. Create GitHub account, if you do not have one already. Follow [these instructions](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
     > Recommended: Apply for GitHub education:
     > - [As a student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student) 
     > - [As a teacher](https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher)
 
-1. Fork this repository:
+2. Fork this repository by clicking the **Fork** button in the top-right corner of the GitHub page. This will create a copy of the repository under your own GitHub account.
 
-    ![location of fork button in GitHub](./media/fork_button.png)
-
-2. Navigate to your fork, and click the **Code** button:
-
-    ![location of code button in GitHub](./media/code_button.png)
-
-3. Launch the codespace from your fork by clicking on the **+** or **Create codespace on main** button in the **Codespaces** tab:
+3. Go to your forked repository on GitHub and click the **Code** button. Next, open the **Codespaces** tab and click **Create codespace on master** (or the **+** button) to launch a new codespace from your fork.
 
     <img width="400px" src="./media/create_codespace.png" alt="location of create codespace button">
+    
+    > Note that this will take a while to build. 
 
-4. Stop the codespace until the session starts by selecting **Stop codespace** from the **...** menu.
+5. Stop the codespace until the session starts by selecting **Stop codespace** from the **...** menu.
 
     <img width="400px" src="./media/stop-codespace.png" alt="stop codespace">
 
-5. To resume the codespace, click **Open in ...** and then select your preferred method. If you aren't sure, select JupyterLab.
+6. To resume the codespace, click **Open in ...** and then select your preferred method. If you aren't sure, select JupyterLab.
 
     <img width="400px" src="./media/resume-codespace.png" alt="resuming a codespace">
 
@@ -158,10 +154,3 @@ This tutorial is licensed under <a href="https://creativecommons.org/licenses/by
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-<!--
-## Related Content
-All examples herein were developed exclusively for this workshop. [Hands-On Data Analysis with Pandas](https://www.amazon.com/dp/1800563450/) contains additional examples and exercises, as does [this article](https://stefaniemolin.com/articles/data-science/how-to-pivot-and-plot-data-with-pandas/). For a deeper dive into data visualization in Python, check out my [Beyond the Basics: Data Visualization in Python](https://stefaniemolin.com/workshops/python-data-viz-workshop/) workshop. -->
-
-<!-- ## License
-#TODO -->
