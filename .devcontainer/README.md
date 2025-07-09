@@ -1,4 +1,4 @@
-# Welcome to the devcontainer for Introduction to Data Analysis Using Python!
+# Welcome to the devcontainer for Tutorial on Machine Learning Techniques for Regression Analysis using Python!
 
 **IMPORTANT**: Open this file using the preview option to render the images (right-click the file in the left sidebar, and click **Open Preview**).
 
