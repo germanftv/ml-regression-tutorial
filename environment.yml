@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python>=3.10.0,<=3.13.100
   - requests>=2.32.3
-  - graphviz
   - pip:
     - scikit-learn==1.7.0
     - jupyterlab>=4.2.3   
